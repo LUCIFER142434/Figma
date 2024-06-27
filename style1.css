@@ -1,0 +1,38 @@
+body{
+    background: url(img/126462-noch-purpurnyj_cvet-atmosfera-nebo-svet-1920x1080.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+}
+header{
+    display: flex;
+    margin: auto;
+    height: 50px;
+    justify-content: space-around;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    padding: 14px;
+}
+main{
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+}
+p{
+    font-size: 20px;
+}
+.but_div button{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
