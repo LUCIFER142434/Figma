@@ -2,13 +2,12 @@
     padding: 0;
     margin: 0;
 }
-
-
 body{
     background: black;
     color: white;
     height: 7000px;
 }
+/* Header start */
 header{
     display: flex;
     justify-content: space-between;
@@ -47,6 +46,9 @@ ul li:hover{
     background: #D5621D;
     transition: 0.5s;
 }
+/* Header end */
+/* Main start */
+/* Main_1 start */
 .main_1{
     margin: 30px auto;
     width: 1296px;
@@ -80,9 +82,6 @@ ul li:hover{
     letter-spacing: 0.05em;
     text-align: left;
 }
-
-
-
 .main_1_box_3{
     width: 416px;
     height: 502px;
@@ -116,7 +115,8 @@ ul li:hover{
     width: 160px;
     height: 200px;
 }
-
+/* Main_1 end */
+/* Main_2 start */
 .main_2{
     text-align: center;
 }
@@ -181,4 +181,80 @@ ul li:hover{
     width: 171px;
     font-size: 18px;
     height: 51px;
+}
+/* Main_2 end */
+/* Main_3 start */
+.main_3{
+    width: 1296px;
+    height: 560px;
+    display: flex;
+    margin: 40px auto;
+    text-align: center;
+    font-family: Stolzl;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.main_3_box h3{
+    font-family: Gotham Pro;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    margin: 30px;
+}
+.main_3_box_but_1{
+    width: 260px;
+    height: 38px;
+    font-family: Gotham Pro;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+}
+.main_3_box img{
+    width: 416px;
+    height: 560px;
+}
+.main_3_box_but_2{
+    margin: 30px;
+    width: 156px;
+    height: 51px;
+    border-radius: 5px 0px 0px 0px;
+    border: 2px 0px 0px 0px;
+    font-family: Stolzl;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    background: none;
+    color: white;
+    border: 3px solid #D5621D;
+}
+/* Main_3 end */
+/* Main_4 start */
+.main_4{
+    margin: auto;
+    width: 1078px;
+    height: 906px;
+}
+.main_4 button{
+    width: 244px;
+    height: 38px;
+    padding: 10px 20px 7px 20px;
+    border-radius: 5px 0px 0px 0px;
+    font-size: 14px;
+    margin: 20px;
+}
+.main_4 h3{
+    font-family: Gotham Pro;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+}
+.center{
+    /* margin: auto; */
+    justify-content: center;
+    /* display: block; */
 }
